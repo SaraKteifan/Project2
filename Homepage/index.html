@@ -9,20 +9,21 @@
 </head>
 <body>
     <h1 id="wName"></h1>
-    <form action="#" method="post">
+    <form id="selectForm">
         <h2>Welcome To our little Quiz Form For HTML,CSS and Java Script, Hope you enjoy the exams... 
         </h2>
         <br><br>
 
         <div id="selectDiv">
-            <select name="select" id="select">
-            <option value="" id="optin1">HTML Quiz(5min)</option>
-            <option value="" id="optin2">CSS Quiz(5min)</option>
-            <option value="" id="optin3">JavaScript Quiz(10min)</option>
+            <select name="select" id="select" onchange="selectExam()">
+            <option value="1" class="optin1" aria-checked="false">HTML Quiz(5min)</option>
+            <option value="2" class="optin2" aria-checked="true">CSS Quiz(5min)</option>
+            <option value="3" class="optin3" aria-checked="undefined">JavaScript Quiz(10min)</option>
             </select>
         </div>
+        <button type="submit" id="submitt" value="" placeholder=""><a href="../questions/index.html">Start The Quiz</a></button>
 
-        <input type="submit" value="Start the quiz" >
+        
         
     </form>
     <!-- <form action="" id="registerForm">
