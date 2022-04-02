@@ -1,6 +1,9 @@
 "use strict";
 let newName= localStorage.getItem('name');
+
 document.getElementById("userName").innerHTML=`Name : ${newName}`;
+let finalResult=document.getElementById("finalResult");
+
 
 let examType= localStorage.getItem('exam');
 
@@ -196,3 +199,65 @@ yourAnswer2.innerHTML=answersArr[1];
 yourAnswer3.innerHTML=answersArr[2];
 yourAnswer4.innerHTML=answersArr[3];
 yourAnswer5.innerHTML=answersArr[4];
+
+let x=0;
+let y=0;
+let i=0;
+ switch (i) {
+     case 0:
+        if(answersArr[0]===correctAnsewres[0]){
+            x++;
+            yourAnswer1.style.color="rgba(0, 182, 0, 0.712)";
+
+        }else{
+            y++;
+            yourAnswer1.style.color="red";
+        }
+        case 1:
+            if(answersArr[1]===correctAnsewres[1]){
+                x++;
+                yourAnswer2.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer2.style.color="red";
+            }    
+             case 2:
+            if(answersArr[2]===correctAnsewres[2]){
+                x++;
+                yourAnswer3.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer3.style.color="red";
+            }    
+             case 3:
+            if(answersArr[3]===correctAnsewres[3]){
+                x++;
+                yourAnswer4.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer4.style.color="red";
+            }   
+              case 4:
+            if(answersArr[4]===correctAnsewres[4]){
+                x++;
+                yourAnswer5.style.color="rgba(0, 182, 0, 0.712)";
+    
+            }else{
+                y++;
+                yourAnswer5.style.color="red";
+            }    
+     default:
+         if(x>y){
+            finalResult.innerHTML=`YOU PASSED THE QUIZ!!! &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.style.backgroundColor="rgba(0, 182, 0, 0.712)";
+            
+         }
+         else{
+            finalResult.innerHTML=`YOU FAILED THE QUIZ &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.style.backgroundColor="red";
+         }
+         break;
+ }
