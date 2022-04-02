@@ -90,7 +90,14 @@ body {
     padding: 5px 25px;
     background-color: #21bf73
 }
-
+#showResult{
+    display: none;
+    margin-left:  45% !important;
+ }
+ #showResult a{ 
+     text-decoration: none;
+     color: white;
+ }
 @media(max-width:576px) {
     .question {
         width: 100%;
