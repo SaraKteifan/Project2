@@ -33,6 +33,7 @@ function CheckFun(event){
         }    
         else if(StorageData[i+1] != loginPass){
             alert("The password is wrong");
+            break;
         }else{
             logintranspert();
             localStorage.setItem('name',(StorageData[i-1]));

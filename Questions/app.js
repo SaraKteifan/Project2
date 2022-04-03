@@ -173,6 +173,9 @@ function nextQuestion(){
     }
         console.log(SpecifiedQuestions);
     i=savedAnswers.length+1;
+    if (i==1){
+      alert('You have to choose an answer before moving to the next question')
+    }
     switch(i){
         case(1):
             question.innerHTML= SpecifiedQuestions[0].question;
