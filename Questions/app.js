@@ -2,6 +2,7 @@
 
 let examType= localStorage.getItem('exam');
 let qDiv=document.getElementById("questionDiv");
+let timerDiv= document.getElementById("app");
 let resultButt= document.getElementById('showResult');
 let question=document.getElementById("question");
 let answer1=document.getElementById("spanAns1");
@@ -209,6 +210,7 @@ function nextQuestion(){
             break;
         default:
             qDiv.style.display='none';
+            timerDiv.style.display='none';
             for(i=0; i<5; i++){
                 let a=Object.values(SpecifiedQuestions[i]);
                 yourAnswers.push(a[savedAnswers[i]]);
