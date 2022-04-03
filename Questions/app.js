@@ -222,6 +222,11 @@ function nextQuestion(){
 
 setTimeout(function(){
     qDiv.style.display='none';
+    for(let k=0; k<5; k++){
+      if(yourAnswers[k]==undefined){
+        yourAnswers[k]="No Answer"
+      }
+    }
 localStorage.setItem("Answers",JSON.stringify(savedAnswers));
 localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
 resultButt.style.display='block';}
