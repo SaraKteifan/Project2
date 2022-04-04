@@ -34,17 +34,17 @@ a{
 /* /////////////Media Query///////////////////// */
 @media (max-width: 426px){
     .brGrade {display: inline;}
-    #logout{
+    #logout, #switchToTable{
         width: 30%;
     }
 }
 @media (max-width: 321px){
-    #logout{
+    #logout, #switchToTable{
         margin-left: 50%;
     }
 }
 @media (max-width: 290px){
-    #logout{
+    #logout, #switchToTable{
         margin-left: 60%;
     }
 }
