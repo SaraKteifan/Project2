@@ -22,18 +22,25 @@ button{
     display: block;
     margin: 2% 40% !important;
 }
-h2{
+/* h2{
     text-align: center;
     background-color:#e9ecef;
     
-}
-#resultText{
+} */
+/* #resultText{
     width: 70%;
     margin: 5% 15%;
-}
+} */
 a{
     text-decoration: none !important;
-    color: black !important;
+    color: white !important;
+}
+#JumDiv {
+    width: 60%;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    padding: 2%;
+    margin-top: 5%;
 }
 
 /* ////////////////////////////////////////// */
