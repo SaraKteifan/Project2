@@ -13,61 +13,61 @@ let yourAnswers=[];
 //////////////////////////////////////HTML Questions
 const htmlQuestions=[
   {
-      question: 'Q1 the tag &lt;p&gt; is',
+      question: 'Q1: the tag &lt;p&gt; is',
       choice1:  'block element',//
       choice2:  'inline element',
       choice3:  'inline-block element',
   },
   {
-      question: 'Q2 what is the  compenents of the HTML structure ? :',
+      question: 'Q2: what is the  compenents of the HTML structure ? :',
       choice1:  '&lt;section&gt; and &lt;div&gt;',
       choice2:  '&lt;head&gt; and &lt;body&gt;',//
       choice3:  '&lt;form&gt; and &lt;table&gt;',
   },
   {
-      question: 'Q3 what are the three types of lists ?',
+      question: 'Q3: what are the three types of lists ?',
       choice1:  '&lt;ol&gt; &lt;ul&gt; &lt;dl&gt;',//
       choice2:  '&lt;li&gt; &lt;tr&gt; &lt;td&gt;',
       choice3:  '&lt;b&gt; &lt;i&gt; &lt;p&gt;',
   },
   {
-      question: 'Q4 which is the right way to write the anchor tag?',
+      question: 'Q4: which is the right way to write the anchor tag?',
       choice1:  '&lt; a href="url"  new&gt;',
       choice2:  '&lt; a href="url" target="new"&gt;',
       choice3:  '&lt;a href="url" target="_blank"&gt;',//
   },
   {
-      question: 'Q5 which of these element are all <table> element?',
+      question: 'Q5: which of these element are all &lt;table&gt; element?',
       choice1:  '&lt;table&gt; &lt;tr&gt; &lt;tt&gt;',
       choice2:  '&lt;table&gt; &lt;tr&gt; &lt;td&gt;',//
       choice3:  '&lt;table&gt; &lt;head&gt; &lt;tfoot&gt;',
   },
   {
-      question: 'Q6 How many types of heading does an HTML contain?',
+      question: 'Q6: How many types of heading does an HTML contain?',
       choice1:  '8',
       choice2:  '6',//
       choice3:  '5',
   },
   {
-      question: 'Q7 tags can be used to separate a section of texts',
+      question: 'Q7: tags can be used to separate a section of texts',
       choice1:  '&lt;br&gt; &lt;hr&gt;',//
       choice2:  '&lt;br&gt; &lt;gt&gt;',
       choice3:  '&lt;bd&gt; &lt;bl&gt;',
   },
   {
-      question: 'Q8 What is the use of a span tag??',
-      choice1:  'For adding color on text',
-      choice2:  'For adding background on text',
+      question: 'Q8: What is the use of a span tag??',
+      choice1:  'For adding color on specific text',
+      choice2:  'For adding background on specific text',
       choice3:  'both',//
   },
   {
-      question: 'Q9 a <!DOCTYPE html> tag is a HTML tag?',
+      question: 'Q9: a &lt;!DOCTYPE html&gt; tag is a HTML tag?',
       choice1:  'True',
       choice2:  'False',//
       choice3:  'depends on the situation',
   },
   {
-      question: 'Q10 Which type of video formats are supported by HTML5?',
+      question: 'Q10: Which type of video formats are supported by HTML5?',
       choice1:  'mp4 WebM Ogg',//
       choice2:  'mp4 avi 3gp',
       choice3:  'mp4 3gp WebM',
@@ -77,19 +77,19 @@ const htmlQuestions=[
 //////////////////////////////////////CSS Questions
 const cssQuestions=[
   {
-      question: 'Q1 Where in an HTML document is the correct place to refer to an external style sheet?',
+      question: 'Q1: Where in an HTML document is the correct place to refer to an external style sheet?',
       choice1: 'in the head section',//
       choice2: 'in the body section',
       choice3: 'at the end of the document',
   },
   {
-      question: 'Q2 Which HTML attribute is used to define inline styles?',
+      question: 'Q2: Which HTML attribute is used to define inline styles?',
       choice1: 'class',
       choice2: 'style',//
       choice3: 'font',
   },
   {
-      question: 'Q3 Which property is used to change the background color?',
+      question: 'Q3: Which property is used to change the background color?',
       choice1: 'background-color',//
       choice2: 'bcolor',
       choice3: 'color',
@@ -107,31 +107,31 @@ const cssQuestions=[
       choice3: 'indent',
   },
   {
-      question: 'Q6 CSS stands for',
+      question: 'Q6: CSS stands for',
       choice1:  'Cascading style sheets',
       choice2:  'Color and style sheets',//
       choice3:  'Cascade style sheets',
   },
   {
-      question: 'Q7 Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?',
+      question: 'Q7: Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?',
       choice1: 'p {background-color : yellow;}',//
       choice2: 'p {background-color : #yellow;}',
       choice3: 'all {background-color : yellow;}',
   },
   {
-      question: 'Q8 Which of the following is the correct syntax to display the hyperlinks without any underline?',
+      question: 'Q8: Which of the following is the correct syntax to display the hyperlinks without any underline?',
       choice1: 'a {text-decoration : underline;}',
       choice2: 'a {decoration : no-underline;}',
       choice3: 'a {text-decoration : none;}',//
   },
   {
-      question: 'Q9 The CSS property used to make the text bold is :',
+      question: 'Q9: The CSS property used to make the text bold is :',
       choice1: 'font-weight : bold',
       choice2: 'weight: bold',//
       choice3: 'font: bold',
   },
   {
-      question: 'Q10 The CSS property used to specify the transparency of an element is:',
+      question: 'Q10: The CSS property used to specify the transparency of an element is:',
       choice1: 'opacity',//
       choice2: 'filter',
       choice3: 'visibility',
@@ -142,64 +142,64 @@ const cssQuestions=[
 
 
 ///////////////////////////////////////////////
-//////////////////////////////////////   JS Questions  
+//:////////////////////////////////////   JS Questions  
 const jsQuestions=[
   {
-      question: 'Q1 How many types of data in JavaScript',
+      question: 'Q1: How many types of data in JavaScript',
       choice1: '8',//
       choice2: '6',
       choice3: '4',
   },
   {
-      question: 'Q2 How do yo creat a function in JavaScript?',
+      question: 'Q2: How do yo creat a function in JavaScript?',
       choice1: 'function=myfunction()',
       choice2: 'function myfunction()',//
       choice3: 'function:myfunction()',
   },
   {
-      question: 'Q3 How does the while loop start',
+      question: 'Q3: How does the while loop start',
       choice1: 'while(i<=10)',//
       choice2: 'while i=1 to 10',
       choice3: 'while(i<=10, i++)',
   },
   {
-      question: 'Q4 how do you find the number with highest value of x and y ?',
+      question: 'Q4: how do you find the number with highest value of x and y ?',
       choice1: 'top(x,y)',
       choice2: 'ceil(x,y)',
       choice3: 'math.ceil(x,y)',//
   },
   {
-      question: 'Q5 How do you declare a JavaScript variable?',
+      question: 'Q5: How do you declare a JavaScript variable?',
       choice1: 'variable carName',
       choice2: 'var carName',//
       choice3: 'v carName',
   },
   {
-      question: 'Q6 When the switch statement matches the expression with the given labels, how is the comparison done?',
+      question: 'Q6: When the switch statement matches the expression with the given labels, how is the comparison done?',
       choice1: 'Both the datatype and the result of the expression are compared.',
       choice2: 'Only the datatype of the expression is compared.',//
       choice3: 'Only the value of the expression is compared.',
   },
   {
-      question: 'Q7 What keyword is used to check whether a given property is valid or not?',
+      question: 'Q7: What keyword is used to check whether a given property is valid or not?',
       choice1: 'in',//
       choice2: 'exists',
       choice3: 'is in',
   },
   {
-      question: 'Q8 When an operator’s value is NULL, the typeof returned by the unary operator is:',
+      question: 'Q8: When an operator’s value is NULL, the typeof returned by the unary operator is:',
       choice1: 'Boolean',
       choice2: 'Object',
       choice3: 'Integer',//
   },
   {
-      question: 'Q9 What does the ‘toLocateString()’ method do in JS?',
+      question: 'Q9: What does the ‘toLocateString()’ method do in JS?',
       choice1: 'Returns a localised object representation.',
       choice2: 'Returns a parsed string.',//
       choice3: 'Returns a localized string representation of an object.',
   },
   {
-      question: 'Q10 Which function is used to serialize an object into a JSON string in Javascript?',
+      question: 'Q10: Which function is used to serialize an object into a JSON string in Javascript?',
       choice1: 'stringify()',//
       choice2: 'parse()',
       choice3: 'None of the above',
