@@ -42,9 +42,13 @@ a{
     padding: 2%;
     margin-top: 5%;
 }
-
 /* ////////////////////////////////////////// */
 /* /////////////Media Query///////////////////// */
+@media (min-width: 1400px) and (max-width: 1600px){
+    #restable{
+    margin: 5% 15%;
+    }
+}
 @media (max-width: 426px){
     #logout, #switchToTable{
         width: 30%;
