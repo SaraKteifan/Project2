@@ -23,6 +23,7 @@ function validation(event) {
     let confirmEmail=event.target.confirmEmail.value;
     let registerPass=event.target.registerPass.value;
     let registerConfPass=event.target.registerConfPass.value;
+    let select=document.getElementById("select").value;
     
     // let but=document.querySelector(button).value;
     // let div=document.querySelector("subdive").value;
@@ -53,6 +54,8 @@ else if (!pwd_expression.test(registerPass))
 
 else if (registerConfPass != registerPass)
     alert("The two passwords doesn't match");
+else if (select == 0)
+    alert("Please Select quiz Type");
 else{
 LocalStore(userName,registerEmail,registerPass)
 transpert();
@@ -79,6 +82,7 @@ let option1=document.getElementsByClassName("class1");
 let option2=document.getElementsByClassName("class2");
 let option3=document.getElementsByClassName("class3");
 let btn= document.getElementById("submitt");
+
     
     if(selector.value == 1){
         localStorage.setItem(`exam`,`HTML`);
