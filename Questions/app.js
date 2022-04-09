@@ -108,8 +108,8 @@ const cssQuestions=[
   },
   {
       question: 'Q6: CSS stands for',
-      choice1:  'Cascading style sheets',
-      choice2:  'Color and style sheets',//
+      choice1:  'Color and style sheets',
+      choice2:  'Cascading style sheets',//
       choice3:  'Cascade style sheets',
   },
   {
@@ -126,8 +126,8 @@ const cssQuestions=[
   },
   {
       question: 'Q9: The CSS property used to make the text bold is :',
-      choice1: 'font-weight : bold',
-      choice2: 'weight: bold',//
+      choice1: 'weight: bold',
+      choice2: 'font-weight : bold',//
       choice3: 'font: bold',
   },
   {
@@ -342,9 +342,9 @@ if (i == 1)
             answer1.innerHTML= SpecifiedQuestions[9].choice1;
             answer2.innerHTML= SpecifiedQuestions[9].choice2;
             answer3.innerHTML= SpecifiedQuestions[9].choice3;
+            btnNext.innerHTML="Submit";
             break;
         default:
-            qDiv.style.display='none';
             for(i=0; i<10; i++){
                 let a=Object.values(SpecifiedQuestions[i]);
                 yourAnswers.push(a[savedAnswers[i]]);
@@ -352,23 +352,30 @@ if (i == 1)
             console.log(yourAnswers);
             localStorage.setItem("Answers",JSON.stringify(savedAnswers));
             localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-            resultButt.style.display='block';
-            
+            window.location ="../result/index.html";        
     }
 }
 
 setTimeout(function(){
     qDiv.style.display='none';
+    let SpecifiedQuestions=selectedExamQuestions;
+    for(i=0; i<10; i++){
+      let a=Object.values(SpecifiedQuestions[i]);
+      yourAnswers.push(a[savedAnswers[i]]);
+  }
     for(k=0;k<10;k++){
       if (yourAnswers[k]== undefined) {
         yourAnswers[k]="No answer";
       }
     }
+    console.log(yourAnswers);
 localStorage.setItem("Answers",JSON.stringify(savedAnswers));
 localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-resultButt.style.display='block'; 
-document.getElementById("app").style.display="none";}
-,300000)
+// resultButt.style.display='block'; 
+// document.getElementById("app").style.display="none";
+window.location ="../result/index.html";
+}
+,300000);
 
 /////////////////////////////CLOCK////////////////////////CLOCK//////////////////////////////////////////////
 ////////////////////////////////////CLOCK//////////CLOCK////////////////////////////////////////////////////

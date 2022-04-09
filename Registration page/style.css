@@ -7,30 +7,31 @@ body{
 }
 h1{
     color: rgba(255, 255, 255, 0.745);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 form{
     background-color: #76b852;
-    height: 63vh;
+    height: 75vh;
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 20hv;
-    margin: 5% 25%;
-    border-radius: 5%;
+    width: 30%;
+    /* height: 20hv; */
+    margin: 2% 35%;
+    border-radius: 50px;
 }
 input{
     background-color:transparent;
     display: block;
     border: 1px solid rgba(255, 255, 255, 0.412);
-    height: 5vh;
+    height: 7vh;
     text-align: center;
     color: aliceblue;
     font-size: large;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    border-radius: 50px;
 }
 button{
     border: 2px solid transparent;
@@ -42,6 +43,7 @@ button{
     font-weight: 500;
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
 }
 #submit:hover{
     cursor: pointer;
@@ -54,34 +56,49 @@ button{
     left: 80%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height: 15vh;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move1;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul2{
     position: absolute;
-    top: 55%;
-    left: 10%;
+    top: 85%;
+    left: 3%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height: 15vh;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move2;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul3{
     position: absolute;
-    top: 10%;
+    top: 28%;
     left: 60%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height: 20vh;
+    width:5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
     display: block;
-    border-radius: 75%;
     opacity: 20%;
+    animation-name: move3;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul4{
@@ -89,71 +106,101 @@ button{
     top: 70%;
     left: 70%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height: 20vh;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 75%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move4;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul5{
     position: absolute;
-    top: 22%;
-    left: 32%;
+    top: 5%;
+    left: 17%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 10vh;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move5;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul6{
     position: absolute;
-    top: 38%;
-    left: 45%;
+    top: 46%;
+    left: 64%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 10vh;
+    width: 10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move6;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul7{
     position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 61%;
+    left: 14%;
     background-color: rgb(213, 208, 208);
-    width: 7.5%;
-    height: 20vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move7;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul8{
     position: absolute;
-    top: 40%;
-    left: 65%;
+    top: 17%;
+    left: 72%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move8;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul9{
     position: absolute;
-    top: 75%;
-    left: 30%;
+    top: 29%;
+    left: 25%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move9;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul99{
@@ -161,11 +208,16 @@ button{
     top: 11%;
     left: 34%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 5%;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 100%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move99;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #sub:hover {
@@ -197,7 +249,7 @@ button{
   }
   #subdiv{
     background-color:rgb(113, 213, 74) ;
-    width: 100%;
+    width: 100%;;
     display: none;
   }
   P{
@@ -225,6 +277,7 @@ button{
     height: 5vh;
     letter-spacing: 4px;
     border: none;
+    border-radius: 50px;
     /* margin: 0 25%; */
     
   }
@@ -250,180 +303,231 @@ button{
     transition: .5s all;
     background: #8DC26F;
   }
-   /* /////////////////////media///////////////////////////// */
-   @media (min-width:1600px) and (max-width:2560px)
-   {
-     form{
-         width: 70%;
-         margin: 5% 16%;
-     }
-     h1 {
-         font-size: 4vw;
-         margin-top: 0%;
-     }
-     input{
-         font-size: 2vw;
-         margin: 0px 0%;
-         width: 42vw;
-     }
-     button{
-         font-size: 2vw;
-         width: 85%;
-         margin-left: 8%;
-     }
-     P {
-         font-size: 2vw;
-             }
- 
-     #ul1{
-       top: 0%;
-       left: 80%;
-       width:11%;
-       height: 15vh;
-   }
-   #ul2{
-       top: 70%;
-       left: 10%;
-       width: 12%;
-       height: 17vh;
- 
-   }
-   #ul3{
-       top: 10%;
-       left: 60%;
-       width:14.5%;
-       height: 20vh;
-   }
-   #ul4{
-       top: 70%;
-       left: 70%;
-       width: 13.5%;
-       height: 20vh;
-   }
-   #ul5{
-       top: 22%;
-       left: 18%;
-       width: 6.5%;
-       height: 10vh;
-   }
-   #ul6{
-       top: 38%;
-       left: 45%;
-       width: 9.5%;
-       height: 13vh;
- 
-   }
-   #ul7{
-       top: 50%;
-       left: 16%;
-       width:14.5%;
-       height: 20vh;
-   }
-   #ul8{
-       top: 40%;
-       left: 65%;
-       width: 7.5%;
-      height: 10vh;
-   }
-   #ul9{
-       top: 75%;
-       left: 30%;
-       width: 10.5%;
-       height: 14vh;
-   }
-   #ul99{
-       top: 11%;
-       left: 34%;
-       width: 7.5%;
-       height: 11vh;
-   }
-   }
-   @media (max-width:769px)
-   {
-     form{
-         width: 70%;
-         margin: 5% 16%;
-     }
-     h1 {
-         font-size: 4vw;
-         margin-top: 0%;
-     }
-     input{
-         font-size: 75%;
-         margin: 0px 0%;
-         width: 42vw;
-     }
-     button{
-         font-size: 80%;
-         width: 85%;
-         margin-left: 8%;
-     }
-     P {
-         font-size: 85%;
-         }
- 
-     #ul1{
-       top: 0%;
-       left: 80%;
-       width:11%;
-       height: 15vh;
-   }
-   #ul2{
-       top: 55%;
-       left: 10%;
-       width: 10%;
-       height: 15vh;
-   }
-   #ul3{
-       top: 10%;
-       left: 60%;
-       width:14.5%;
-       height: 20vh;
-   }
-   #ul4{
-      top: 70%;
-       left: 70%;
-       width: 14.5%;
-       height: 20vh;
- 
-   }
-   #ul5{
-       top: 22%;
-       left: 32%;
-       width: 9.5%;
-       height: 10vh;
-   }
-   #ul6{
-       top: 38%;
-       left: 45%;
-       width: 8.5%;
-       height: 10vh;
-   }
-   #ul7{
-       top: 50%;
-       left: 30%;
-       width:14.5%;
-       height: 20vh;
-   }
-   #ul8{
-       top: 40%;
-       left: 65%;
-       width: 0.5%;
-       height: 6vh;
- 
-   }
-   #ul9{
-       top: 75%;
-       left: 30%;
-       width: 9.5%;
-       height: 12vh;
-   }
-   #ul99{
-       top: 11%;
-       left: 34%;
-       width: 0.5%;
-       height: 6vh;
+/* /////////////////////Animation///////////////////////////// */
+@keyframes move1 {
+    form{top:0%}
+    to{top:7%}
+    
+}
+@keyframes move2 {
+    form{top:85%}
+    to{top:78%}
+    
+}
+@keyframes move3 {
+    form{top:28%}
+    to{top:35%}
+    
+}
+@keyframes move4 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move5 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move6 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move7 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move8 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move9 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move99 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+
+
+  
+
+  /* /////////////////////media///////////////////////////// */
+  @media (min-width:1600px) and (max-width:2560px)
+  {
+    form{
+        width: 70%;
+        margin: 5% 16%;
     }
+    h1 {
+        font-size: 4vw;
+        margin-top: 0%;
+    }
+    input{
+        font-size: 2vw;
+        margin: 0px 0%;
+        width: 42vw;
+    }
+    button{
+        font-size: 2vw;
+        width: 85%;
+        margin-left: 8%;
+    }
+    P {
+        font-size: 2vw;
+            }
+
+    /* #ul1{
+      top: 0%;
+      left: 80%;
+      width:11%;
+      height: 15vh;
+  }
+  #ul2{
+      top: 70%;
+      left: 10%;
+      width: 12%;
+      height: 17vh;
+  }
+  #ul3{
+      top: 10%;
+      left: 60%;
+      width:14.5%;
+      height: 20vh;
+  }
+  #ul4{
+      top: 70%;
+      left: 70%;
+      width: 13.5%;
+      height: 20vh;
+  }
+  #ul5{
+      top: 22%;
+      left: 18%;
+      width: 6.5%;
+      height: 10vh;
+  }
+  #ul6{
+      top: 38%;
+      left: 45%;
+      width: 9.5%;
+      height: 13vh;
+  }
+  #ul7{
+      top: 50%;
+      left: 16%;
+      width:14.5%;
+      height: 20vh;
+  }
+  #ul8{
+      top: 40%;
+      left: 65%;
+      width: 7.5%;
+     height: 10vh;
+  }
+  #ul9{
+      top: 75%;
+      left: 30%;
+      width: 10.5%;
+      height: 14vh;
+  }
+  #ul99{
+      top: 11%;
+      left: 34%;
+      width: 7.5%;
+      height: 11vh;
+  } */
+  }
+  @media (max-width:769px)
+  {
+    form{
+        width: 70%;
+        margin: 5% 16%;
+    }
+    h1 {
+        font-size: 4vw;
+        margin-top: 0%;
+    }
+    input{
+        font-size: 75%;
+        margin: 0px 0%;
+        width: 42vw;
+    }
+    button{
+        font-size: 80%;
+        width: 85%;
+        margin-left: 8%;
+    }
+    P {
+        font-size: 85%;
+        }
+
+    /* #ul1{
+      top: 0%;
+      left: 80%;
+      width:11%;
+      height: 15vh;
+  }
+  #ul2{
+      top: 55%;
+      left: 10%;
+      width: 10%;
+      height: 15vh;
+  }
+  #ul3{
+      top: 10%;
+      left: 60%;
+      width:14.5%;
+      height: 20vh;
+  }
+  #ul4{
+     top: 70%;
+      left: 70%;
+      width: 14.5%;
+      height: 20vh;
+  }
+  #ul5{
+      top: 22%;
+      left: 32%;
+      width: 9.5%;
+      height: 10vh;
+  }
+  #ul6{
+      top: 38%;
+      left: 45%;
+      width: 8.5%;
+      height: 10vh;
+  }
+  #ul7{
+      top: 50%;
+      left: 30%;
+      width:14.5%;
+      height: 20vh;
+  }
+  #ul8{
+      top: 40%;
+      left: 65%;
+      width: 0.5%;
+      height: 6vh;
+  }
+  #ul9{
+      top: 75%;
+      left: 30%;
+      width: 9.5%;
+      height: 12vh;
+  }
+  #ul99{
+      top: 11%;
+      left: 34%;
+      width: 0.5%;
+      height: 6vh;
+    } */
 }
   @media (max-width:426px)
   {
@@ -449,11 +553,22 @@ button{
     P {
         font-size: 70%;
     }
-
     #ul1{
+        padding-bottom: 10%;
+    }#ul2{
+        padding-bottom: 10%;
+    }#ul3{
+        padding-bottom: 10%;
+    }
+    #ul99{
+        padding-bottom: 10%;
+    }
+
+
+
+    /* #ul1{
         width: 17%;
     height: 12vh;
-
     }
     #ul2{
         width: 16%;
@@ -479,7 +594,7 @@ button{
         width: 15.5%;
     height: 12vh;
     left: 68%;
-    }  
+    }   */
 }
 @media (max-width:376px)
   { 
@@ -506,10 +621,9 @@ button{
 input{
     font-size: 75%;
 }
-    #ul1{
+    /* #ul1{
         width: 17%;
     height: 12vh;
-
     }
     #ul2{
         width: 16%;
@@ -534,8 +648,27 @@ input{
     #ul7{
         width: 18.5%;
     height: 13vh;
-    } 
-}
+    } */
+    #ul1{
+        padding-bottom: 13%;
+    }#ul2{
+        padding-bottom: 13%;
+    }#ul3{
+        padding-bottom: 13%;
+    }
+    #ul4{
+    padding-bottom: 12%;
+    }
+    #ul5{
+    padding-bottom: 12%;
+    }
+    #ul6{
+    padding-bottom: 12%;
+    }
+    #ul99{
+     padding-bottom: 12%;
+    }
+} 
 @media (max-width:321px)
 { 
     form{
@@ -563,7 +696,7 @@ input{
 }
 
 
-  #ul1{
+  /* #ul1{
       width: 16%;
   height: 10vh;
   }
@@ -589,8 +722,8 @@ input{
       width: 25.5%;
       height: 12vh;
       top: 27%;
-     }
-    }
+     }*/
+    } 
 @media (max-width:281px){
 
     form{
@@ -617,7 +750,7 @@ input{
     font-size: 72%;
 }
 
-   #ul1{
+   /* #ul1{
     height: 7vh;
    }
    #ul2{
@@ -631,6 +764,6 @@ input{
    }
    #ul7{
     height: 11vh;
-   }
+   } */
 
   }
